@@ -15,8 +15,8 @@ class File():
         self.md5=md5
         self.dlink=dlink
     def pathmate(self):
-        print('文件名：%s 文件ID：%d 是否目录：%d\n绝对路径：%s'%(self.name,self.fs_id,self.is_dir,self.path))
+        print('Filename: %s ID：%d Directory? %d\nPath: %s'%(self.name,self.fs_id,self.is_dir,self.path))
         print('-----------------------------------------------------------------------------------------------------------------------')
     def filemate(self):
-        print('文件名：%s 文件ID：%d\n绝对路径：%s\n文件大小：%.2fMB MD5：%s\n下载地址：%s'%(self.name,self.fs_id,self.path,self.size,self.md5,self.dlink))
+        print('Filename: %s ID：%d\nDirectory? %s\nSize: %.2fMB Hash：%s\nLink: %s'%(self.name,self.fs_id,self.path,self.size,self.md5,self.dlink))
         print('-----------------------------------------------------------------------------------------------------------------------')
