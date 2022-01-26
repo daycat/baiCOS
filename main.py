@@ -13,13 +13,13 @@
 import os
 import baidunetdisk
 import json
-appkey='cEmmwG9POQXvgg2EhZ4LXyXYkOGFuwhW'
-secretkey='oIeInf6uOX6xadrCopUKaB5v0KzzrxGv'
+appkey=''
+secretkey=''
 access_token=''
 path='/'
 files=[]
 dl_files=[]
-url='http://openapi.baidu.com/oauth/2.0/authorize?response_type=code&client_id=cEmmwG9POQXvgg2EhZ4LXyXYkOGFuwhW&redirect_uri=oob&scope=basic,netdisk&qrcode=1'
+url='http://openapi.baidu.com/oauth/2.0/authorize?response_type=code&client_id=&redirect_uri=oob&scope=basic,netdisk&qrcode=1'
 print('baiCOS | By daycat & 鹿乃ちゃんの猫')
 print('release version: 0.1')
 print('Attempting to use config.json to login......')
